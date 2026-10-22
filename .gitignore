@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Trained models and large data files
+*.pkl
+*.csv
+clean_tags
+tags_cache.json
+spotify_image_cache.json
+.last_sync.json
+
+# API keys and secrets
+.env
+*.env
+api.txt
+spotify_tokens.json
+
+# Torrents and installers (shouldn't be in repo)
+*.torrent
+*.msi
+*.exe
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Misc
+obscure_rock.txt
